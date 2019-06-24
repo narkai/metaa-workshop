@@ -7,11 +7,9 @@ see the *METAA_Identity-Proposal.pdf* document beautifully devised by *EVERYDAY 
 
 * web
 * easier for menus & tooling
-* functional => ui = f(s)
 * ...
 
-[How to UI in 2018](https://medium.com/@thi.ng/how-to-ui-in-2018-ac2ae02acdf3)  
-[Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)
+[thi-ng umbrella](https://github.com/thi-ng/umbrella/tree/master/examples)  
 
 ### NODE
 
@@ -28,6 +26,7 @@ brew install node
 
 ### CRA
 
+* use react-scripts without using react itself
 * autoconfig (webpack, babel, ...)
 * modern js (ES6, import, ...)
 * server (> http://), production build
@@ -53,6 +52,7 @@ control+c
 * we love Processing !
 * quick start
 * svg export built-in
+* use it as a canvas renderer
 * ...
 
 ```
@@ -68,8 +68,20 @@ Declarative architecture : the system api is fed with final states and animate t
 
 Keep state and rendering functions outside of objects as much as possible. This way, it's gonna be easier to reuse the code and add new render targets later on.
 
-### PROJECTS
+* ui = function(state)
+* functional programming
+* inside object > get but don't set
+* factory functions, thanks romain for pointing this out !
 
+[How to UI in 2018](https://medium.com/@thi.ng/how-to-ui-in-2018-ac2ae02acdf3)  
+[Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)  
+[Factory Functions in JavaScript](https:// https://www.youtube.com/watch?v=ImwrezYhw4w)  
+[JavaScript Factory Functions with ES6+](https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1)  
+
+### IDEAS
+
+* viewport size responsive
+* snapshot/state builder
 * spring animation
-* state builder
+* movement recorder
 * ...
