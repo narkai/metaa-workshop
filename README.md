@@ -80,7 +80,7 @@ Try to keep state mutation and rendering functions outside of objects in a funct
 
 [How to UI in 2018](https://medium.com/@thi.ng/how-to-ui-in-2018-ac2ae02acdf3)  
 [Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)  
-[Factory Functions in JavaScript](https:// https://www.youtube.com/watch?v=ImwrezYhw4w)  
+[Factory Functions in JavaScript](https://www.youtube.com/watch?v=ImwrezYhw4w)  
 [JavaScript Factory Functions with ES6+](https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1)  
 [Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)  
 ...  
