@@ -10,6 +10,7 @@ see the *METAA_Identity-Proposal.pdf* document beautifully devised by *EVERYDAY 
 * ...
 
 [thi-ng umbrella](https://github.com/thi-ng/umbrella/tree/master/examples)  
+...  
 
 ### NODE
 
@@ -23,6 +24,7 @@ brew install node
 
 [Homebrew](https://brew.sh/)  
 [Node](https://nodejs.org/en/)  
+...  
 
 ### CRA
 
@@ -46,6 +48,7 @@ control+c
 [boilerplate example](https://github.com/woudsma/p5js-es6-boilerplate)  
 [ES6](https://exploringjs.com/es6/)
 [ES6 import](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)  
+...  
 
 ### P5
 
@@ -61,22 +64,26 @@ npm install --save p5
 
 [p5js](https://p5js.org/reference/)  
 [the coding train](https://www.youtube.com/user/shiffman/videos)  
+...  
 
 ### API
 
-Declarative architecture : the system api is fed with final states and animate transitions automagically. This way, it's gonna be easier to develop more tools to organize, edit, save...
+Declarative architecture : the system api describes final states, animation comes later.
 
-Keep state and rendering functions outside of objects as much as possible. This way, it's gonna be easier to reuse the code and add new render targets later on.
+Try to keep state mutation and rendering functions outside of objects in a functional fashion, as much as possible.
 
 * ui = function(state)
 * functional programming
 * inside object > get but don't set
-* factory functions, thanks romain for pointing this out !
+* factory functions over classes, thanks romain for pointing this out !
+* composition over inheritance, compose objects by what they do rather than by what they are
 
 [How to UI in 2018](https://medium.com/@thi.ng/how-to-ui-in-2018-ac2ae02acdf3)  
 [Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide)  
 [Factory Functions in JavaScript](https:// https://www.youtube.com/watch?v=ImwrezYhw4w)  
 [JavaScript Factory Functions with ES6+](https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1)  
+[Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA)  
+...  
 
 ### IDEAS
 
